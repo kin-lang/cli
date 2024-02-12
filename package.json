@@ -1,9 +1,11 @@
 {
   "name": "@kin-lang/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI utility for Kin Programming Language",
   "main": "./dist/bin/kin.js",
-  "bin": "./dist/bin/kin.js",
+  "bin": {
+    "kin": "./dist/bin/kin.js"
+  },
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"./**/*.ts\"",
