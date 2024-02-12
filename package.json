@@ -1,0 +1,40 @@
+{
+  "name": "@kin-lang/cli",
+  "version": "0.1.0",
+  "description": "CLI utility for Kin Programming Language",
+  "main": "./dist/bin/kin.js",
+  "bin": "./dist/bin/kin.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kin-lang/cli.git"
+  },
+  "keywords": [
+    "Kin",
+    "kin-lang",
+    "programming-language"
+  ],
+  "author": "MURANGWA Pacifique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kin-lang/cli/issues"
+  },
+  "homepage": "https://github.com/kin-lang/cli#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@kin-lang/core": "^0.1.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0"
+  }
+}
