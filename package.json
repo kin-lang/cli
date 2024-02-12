@@ -1,6 +1,6 @@
 {
   "name": "@kin-lang/cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CLI utility for Kin Programming Language",
   "main": "./dist/bin/kin.js",
   "bin": {

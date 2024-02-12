@@ -57,6 +57,7 @@ program
       const ast = parser.produceAST(source_codes); // Produce AST for Kin
       const env = createGlobalEnv(file_location); // create global environment for Kin
       Interpreter.evaluate(ast, env); // Evaluate the program
+      process.exit(0);
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       if (error.code === 'ENOENT') {
