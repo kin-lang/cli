@@ -1,6 +1,6 @@
 {
   "name": "@kin-lang/cli",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "CLI utility for Kin Programming Language",
   "main": "./dist/bin/kin.js",
   "bin": {
@@ -38,7 +38,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@kin-lang/core": "^0.1.0",
+    "@kin-lang/core": "^0.3.0",
     "chalk": "^5.3.0",
     "commander": "^12.0.0"
   }
