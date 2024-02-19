@@ -1,25 +1,13 @@
-<p align="center">
-  <a href="https://github.com/pacifiquem" target="blank"><img src="https://github.com/kin-lang/kin/blob/main/kin-logo.svg" width="120" alt="Kin Logo" /></a>
-</p>
-
-<p align="center">Write computer programs in Kinyarwanda! </p>
-
-**Kin** is a straightforward programming language created with the purpose of aiding Kinyarwanda speakers in easily learning programming.
-
-> This is CLI package for Kin Programming Language
-
-## Installation
-
-```shell
-npm i -g @kin-lang/cli
+```
+     _                               _           _
+  __| | ___ _ __  _ __ ___  ___ __ _| |_ ___  __| |
+ / _` |/ _ \ '_ \| '__/ _ \/ __/ _` | __/ _ \/ _` |
+| (_| |  __/ |_) | | |  __/ (_| (_| | ||  __/ (_| |
+ \__,_|\___| .__/|_|  \___|\___\__,_|\__\___|\__,_|
+           |_|
 ```
 
-## Usage
+No longer maintained. <br>
+Everything was moved to **[Kin/bin](https://github.com/kin-lang/kin/tree/main/bin)** directory.
 
-```shell
-kin <command> <arguments>
-```
-
-## License
-
-Kin's CLI is under MIT license.
+Also `@kin-lang/cli` package which was associated with this repo was deprecated, consider using `@kin-lang/kin` Instead.
