@@ -1,2 +1,7 @@
 /node_modules
 *.ts
+*.kin
+*.svg
+.prettierrc
+.prettierignore
+.eslintrc
